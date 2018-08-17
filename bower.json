@@ -1,0 +1,23 @@
+{
+  "name": "kerala flood 2018",
+  "description": "Messenger Webhook for Kerala flood 2018",
+  "main": "server.js",
+  "authors": [
+    "Shabin Muhammed"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "angular": "1.7.3"
+  }
+}

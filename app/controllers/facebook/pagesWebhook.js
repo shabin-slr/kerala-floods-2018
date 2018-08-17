@@ -2,7 +2,7 @@ const FacebookChallenge = require("../../config").facebook.challenge;
 
 let handleChallenge = (req,res, next) =>{
     
-    var challenge = decodeURIComponent(req.query['hub.challenge']);
+    var challenge =  decodeURIComponent(req.query['hub.challenge']);
     var verifyToken = decodeURIComponent(req.query['hub.verify_token']);
 
     if(verifyToken != FacebookChallenge){
